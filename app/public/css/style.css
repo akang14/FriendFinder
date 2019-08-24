@@ -1,0 +1,31 @@
+.container{
+    width: 960px;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    text-align: left;
+    
+    
+}
+h1{
+    font-size: 80px;
+    text-shadow: 5px 5px lightgray;
+    
+    
+}
+
+
+.answer {
+    margin-top: 2%;
+    text-align: left;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 4px 4px gray;
+
+}
+
+.message {
+    font-size: 15px;
+}
+

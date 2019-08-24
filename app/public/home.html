@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3487471318.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 960px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .header {
+            text-align: left;
+
+
+        }
+
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            text-shadow: 5px 5px lightgray;
+
+
+        }
+
+        img {
+            height: 80px;
+            width: 80px;
+        }
+
+
+        .answer {
+            margin-top: 2%;
+            text-align: left;
+            background-color: lightgrey;
+            padding: 20px;
+            border-radius: 3px;
+            box-shadow: 4px 4px gray;
+
+        }
+
+        .message {
+            font-size: 15px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 644px;
+            height: 20px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Friend Finder!
+                <img
+                    src="https://media1.giphy.com/media/9VvlHYBpcRadeNDCCa/giphy.gif?cid=790b761198dc9012c1d09feede42a436c30abaacad430914&rid=giphy.gif">
+            </h1>
+
+        </div>
+        <div class="answer">
+            <h2>Answer a few basic questions...</h2>
+            <p class="message">Then find the friend with the greatest compatibility!
+            </p>
+            <a href="/survey"><input id="button" class="btn btn-primary homebtn" type="submit"
+                    value="Go to Survery"></a>
+        </div>
+        <div class="footer">
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/akang14/FriendFinder">GitHub Repo</a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
